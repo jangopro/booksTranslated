@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-    <books></books>
+    <app></app>
 @endsection
