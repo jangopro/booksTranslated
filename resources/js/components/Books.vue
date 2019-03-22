@@ -2,9 +2,8 @@
   <div>
     <div v-for="book in books" :key="book.id">
       <p>
-        {{ book.title }}
+        <router-link :to="{ name: 'book.details', params: { id: book.id } }">{{ book.title }}</router-link>
         <br>
-
         {{ book.author }}
       </p>
     </div>
