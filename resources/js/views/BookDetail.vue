@@ -1,5 +1,10 @@
 <template>
-  <p>{{book.title}}</p>
+  <div>
+    <p>{{book.title}}</p>
+    <p>{{book.author}}</p>
+    <p>{{book.ISBN}}</p>
+    <p>{{book.lang}}</p>
+  </div>
 </template>
 
 <script>
